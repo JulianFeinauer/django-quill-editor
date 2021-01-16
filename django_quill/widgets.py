@@ -79,4 +79,5 @@ class QuillWidget(forms.Textarea):
             'config': json_encode(self.config),
             'quill': final_attrs.get('quill', None),
             'value': final_attrs.get('value', None),
+            'class': final_attrs.get('class', None)
         }))
