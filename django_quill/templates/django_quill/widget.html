@@ -1,6 +1,6 @@
 {% load static %}
 <div class="vLargeTextField django-quill-widget-container">
-    <div id="quill-{{ id }}" class="django-quill-widget" data-config="{{ config }}" data-type="django-quill"></div>
+    <div id="quill-{{ id }}" class="django-quill-widget {{ class }}" data-config="{{ config }}" data-type="django-quill"></div>
     <input id="quill-input-{{ id }}" name="{{ name }}" type="hidden">
     <script>
         (function () {
